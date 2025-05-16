@@ -10,6 +10,11 @@
     mkdir MyProject1
     ```
 
+- Navigate into the `MyProject1` folder
+    ```bash
+    cd MyProject1
+    ```
+
 - Create a solution that will contain the .NET project  
     ```bash
     mkdir Solution
@@ -23,6 +28,11 @@
 - Initialize the .NET project
     ```bash
     dotnet new console
+    ```
+
+- Comeback to into the `MyProject1` folder
+    ```bash
+    cd ..
     ```
 
 - Create a `.sln` file
@@ -40,6 +50,11 @@
 - Create a test project (Here I’ll use xUnit for simplicity)
     ```bash
     dotnet new xunit -n Tests
+    ```
+
+- Start first build in the `MyProject1` folder
+    ```bash
+    dotnet build
     ```
 
 ### Final Structure Plan
@@ -72,10 +87,16 @@
     mkdir MonProjet1
     ```
 
+- Aller dans le dossier initial
+    ```bash
+    cd MyProject1
+    ```
+
 - créer une Solution qui contiendra le projet dotnet
     ```bash
     mkdir Solution
     ```
+
 - Aller dans le dossier de projet Solution 
     ```bash
     cd Solution
@@ -84,6 +105,11 @@
 - Initialiser le projet .NET
     ```bash
     dotnet new console
+    ```
+
+- Revenir au dossier initial
+    ```bash
+    cd ..
     ```
 
 - créer un fichier .sln
@@ -101,6 +127,11 @@
 - créer un Projet de test (Ici j'utiliserais xunit par facilité)
     ```bash
     dotnet new xunit -n Tests
+    ```
+
+- Lancez votre premier build dans le dossier initial
+    ```bash
+    dotnet build
     ```
 
 ### Plan de structure finale
