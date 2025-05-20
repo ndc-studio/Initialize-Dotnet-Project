@@ -1,6 +1,20 @@
-#
-# ENGLISH
-## How to Easily Initialize a .NET Project
+# 🇬🇧 English - How to use `dotnet_project.bat`
+## .NET Project Auto-Creation Script
+This script helps you automatically set up a .NET project structure with a solution, a console app, and a test project using xUnit.
+
+### Steps
+1. Move the `dotnet_project.bat` file into the folder where you want to create your project.
+2. Double-click on the `.bat` file.
+3. A console window will open and ask you to **enter the name** of your project.
+4. The script will:
+   - Create a folder named after your project
+   - Create a solution and console project
+   - Create a test project using xUnit
+   - Add all projects to the `.sln` file
+   - Build the solution
+__________________________________________________________________________________
+
+## How to Easily Initialize a .NET Project (Manually)
 ### Explanation
 - Go to the desired location to create the folder (or clone the repository)  
 - Open a command prompt (for this example, I’ll use Git Bash)  
@@ -60,9 +74,24 @@
             └─► -- Follow the same steps
 ```
 
-# 
-# FRANCAIS
-## Comment initialiser un projet dotnet facilement
+# 🇫🇷 Français - Comment utiliser `dotnet_project.bat`
+## Projet .NET Auto-Creation Script
+Ce script permet de générer automatiquement une structure de projet .NET avec une solution, une application console, et un projet de test xUnit.
+
+### ✅ Étapes
+1. Copie et colle le fichier `dotnet_project.bat` dans le dossier où tu souhaîtes créer ton projet.
+2. Double-clique sur le fichier `.bat`.
+3. Une fenêtre de console va s'ouvrir et te demander **le nom du projet**.
+4. Le script va :
+   - Créer un dossier avec ce nom
+   - Créer une solution + un projet console
+   - Créer un projet de test avec xUnit
+   - Ajouter les projets au fichier `.sln`
+   - Compiler la solution
+__________________________________________________________________________________
+
+
+## Comment initialiser un projet dotnet facilement (manuellement)
 ### Explication
 - Aller à l'emplacement désiré pour créer le dossier (ou cloner le repository)
 - Ouvrir un invite de commande (Pour le cas présent j'utiliserais git bash)
