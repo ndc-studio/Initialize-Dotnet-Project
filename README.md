@@ -1,5 +1,5 @@
-# 🇬🇧 English - How to use `dotnet_project.bat`
-## .NET Project Auto-Creation Script
+## 🇬🇧 English - How to use `dotnet_project.bat`
+### .NET Project Auto-Creation Script
 This script helps you automatically set up a .NET project structure with a solution, a console app, and a test project using xUnit.
 
 ### Steps
@@ -74,8 +74,8 @@ ________________________________________________________________________________
             └─► -- Follow the same steps
 ```
 
-# 🇫🇷 Français - Comment utiliser `dotnet_project.bat`
-## Projet .NET Auto-Creation Script
+## 🇫🇷 Français - Comment utiliser `dotnet_project.bat`
+### Projet .NET Auto-Creation Script
 Ce script permet de générer automatiquement une structure de projet .NET avec une solution, une application console, et un projet de test xUnit.
 
 ### Étapes
@@ -91,7 +91,7 @@ Ce script permet de générer automatiquement une structure de projet .NET avec 
 __________________________________________________________________________________
 
 
-## Comment initialiser un projet dotnet facilement (manuellement)
+# Comment initialiser un projet dotnet facilement (manuellement)
 ### Explication
 - Aller à l'emplacement désiré pour créer le dossier (ou cloner le repository)
 - Ouvrir un invite de commande (Pour le cas présent j'utiliserais git bash)
