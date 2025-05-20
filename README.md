@@ -78,7 +78,7 @@ ________________________________________________________________________________
 ## Projet .NET Auto-Creation Script
 Ce script permet de générer automatiquement une structure de projet .NET avec une solution, une application console, et un projet de test xUnit.
 
-### ✅ Étapes
+### Étapes
 1. Copie et colle le fichier `dotnet_project.bat` dans le dossier où tu souhaîtes créer ton projet.
 2. Double-clique sur le fichier `.bat`.
 3. Une fenêtre de console va s'ouvrir et te demander **le nom du projet**.
