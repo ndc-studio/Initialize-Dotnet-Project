@@ -15,36 +15,21 @@
     cd MyProject1
     ```
 
-- Create a solution that will contain the .NET project  
+- Initialize the .NET project with a new folder
     ```bash
-    mkdir Solution
-    ```
-
-- Navigate into the `Solution` folder
-    ```bash
-    cd Solution
-    ```
-
-- Initialize the .NET project
-    ```bash
-    dotnet new console
-    ```
-
-- Comeback to into the `MyProject1` folder
-    ```bash
-    cd ..
+    dotnet new console -n SolutionFolder
     ```
 
 - Create a `.sln` file
     ```bash
-    dotnet new sln -n SolutionTest
+    dotnet new sln -n SolutionFile
     ```
 
 - Link the `.sln` file to the solution
     ```bash
-    dotnet sln add "c:\Your\Absolute\Path"
+    dotnet sln add "c:\User\Desktop\MyProject1\SolutionFolder\SolutionFolder.csproj"
     # or
-    dotnet sln add ./Your/Relative/Path
+    dotnet sln add ./SolutionFolder/SolutionFolder.csproj
     ```
 
 - Create a test project (Here I’ll use xUnit for simplicity)
@@ -92,36 +77,21 @@
     cd MyProject1
     ```
 
-- créer une Solution qui contiendra le projet dotnet
+- Initialiser le projet .NET avec son dossier
     ```bash
-    mkdir Solution
-    ```
-
-- Aller dans le dossier de projet Solution 
-    ```bash
-    cd Solution
-    ```
-
-- Initialiser le projet .NET
-    ```bash
-    dotnet new console
-    ```
-
-- Revenir au dossier initial
-    ```bash
-    cd ..
+    dotnet new console -n DossierSolution
     ```
 
 - créer un fichier .sln
     ```bash
-    dotnet new sln -n SolutionTest
+    dotnet new sln -n FichierSolution
     ```
 
 - lier le fichier.sln à la Solution
     ```bash
-    dotnet sln add "c:\Ton\Chemin\D.acces\Absolu"
-    # ou
-    dotnet sln add ./Ton/Chemin/D.acces/Relatif
+    dotnet sln add "c:\User\Desktop\MyProject1\DossierSolution\DossierSolution.csproj"
+    # or
+    dotnet sln add ./DossierSolution/DossierSolution.csproj
     ```
 
 - créer un Projet de test (Ici j'utiliserais xunit par facilité)
