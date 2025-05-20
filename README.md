@@ -91,7 +91,7 @@ Ce script permet de générer automatiquement une structure de projet .NET avec 
 __________________________________________________________________________________
 
 
-# Comment initialiser un projet dotnet facilement (manuellement)
+## Comment initialiser un projet dotnet facilement (manuellement)
 ### Explication
 - Aller à l'emplacement désiré pour créer le dossier (ou cloner le repository)
 - Ouvrir un invite de commande (Pour le cas présent j'utiliserais git bash)
