@@ -14,6 +14,12 @@ dotnet sln add .\Solution\Solution.csproj
 dotnet new xunit -n Tests
 dotnet sln add .\Tests\Tests.csproj
 
+
+:: Go into the Tests folder
+cd Tests\
+
+dotnet add reference ../Solution/Solution.csproj
+
 :: Build the whole solution
 dotnet build
 
