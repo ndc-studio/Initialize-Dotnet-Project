@@ -51,6 +51,21 @@ ________________________________________________________________________________
     dotnet new xunit -n Tests
     ```
 
+- Navigate to the Tests folder
+    ```bash
+    cd Tests
+    ```
+
+- Reference the project to test
+    ```bash
+    dotnet add reference ../SolutionFolder/SolutionFolder.csproj
+    ```
+
+- Go back to the root folder
+    ```bash
+    cd ..
+    ```
+
 - Start first build in the `MyProject1` folder
     ```bash
     dotnet build
@@ -79,7 +94,7 @@ ________________________________________________________________________________
 Ce script permet de générer automatiquement une structure de projet .NET avec une solution, une application console, et un projet de test xUnit.
 
 ### Étapes
-1. Copie et colle le fichier `dotnet_project.bat` dans le dossier où tu souhaîtes créer ton projet.
+1. Copie et colle le fichier `dotnet_project.bat` dans le dossier où tu souhaites créer ton projet.
 2. Double-clique sur le fichier `.bat`.
 3. Une fenêtre de console va s'ouvrir et te demander **le nom du projet**.
 4. Le script va :
@@ -94,7 +109,7 @@ ________________________________________________________________________________
 ## Comment initialiser un projet dotnet facilement (manuellement)
 ### Explication
 - Aller à l'emplacement désiré pour créer le dossier (ou cloner le repository)
-- Ouvrir un invite de commande (Pour le cas présent j'utiliserais git bash)
+- Ouvrir une invite de commande (Pour le cas présent j'utiliserais git bash)
 
 - créer un dossier 
     ```bash
@@ -126,6 +141,21 @@ ________________________________________________________________________________
 - créer un Projet de test (Ici j'utiliserais xunit par facilité)
     ```bash
     dotnet new xunit -n Tests
+    ```
+
+- Aller dans le dossier de Tests
+    ```bash
+    cd Tests
+    ```
+
+- Referencez le projet à tester
+    ```bash
+    dotnet add reference ../DossierSolution/DossierSolution.csproj
+    ```
+
+- Retournez a la racine
+    ```bash
+    cd ..
     ```
 
 - Lancez votre premier build dans le dossier initial
